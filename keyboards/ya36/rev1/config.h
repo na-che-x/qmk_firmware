@@ -8,8 +8,8 @@
 #define MANUFACTURER    yunjieshi
 #define PRODUCT         ya36
 
-#define MATRIX_ROWS 4
-#define MATRIX_COLS 10
+#define MATRIX_ROWS 8
+#define MATRIX_COLS 5
 
 // wiring
 #define MATRIX_ROW_PINS { D4, C6, D7, E6 }
