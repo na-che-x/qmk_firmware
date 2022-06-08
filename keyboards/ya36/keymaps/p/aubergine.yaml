@@ -1,0 +1,69 @@
+points:
+  zones:
+    matrix:
+      columns:
+        one:
+          rows:
+            one:
+            two:
+        two:
+          stagger: -4
+          rows:
+            one:
+            two:
+            three:
+        three:
+          stagger: 5
+          rows:
+            one:
+            two:
+            three:
+        four:
+          stagger: 5
+          rows:
+            one:
+            two:
+            three:
+        five:
+          stagger: -5
+          rows:
+            one:
+            two:
+            three:
+        six:
+          stagger: -3
+          rows:
+            one:
+            two:
+            three:
+        seven:
+          stagger: -3
+          rows:
+            one:
+            two:
+            three:
+        eight:
+          stagger: 6
+          rows:
+            one:
+            two:
+        nine:
+          stagger: 5
+          rows:
+            one:
+  rotate: -3
+  key:
+    padding:
+      19
+outlines:
+  exports:
+    body:
+      - type: circle
+        radius: 50
+        anchor:
+          - ref: matrix_one_one
+    keywells:
+      - operation: add
+        type: keys
+        side: left
+        size: [16.5, 17.5]
